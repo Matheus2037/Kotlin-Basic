@@ -1,6 +1,7 @@
 package BasicEX
 private val filaPacientes: ArrayDeque<String> = ArrayDeque()
-private val pacientesAtendidos: ArrayDeque<String> = ArrayDeque()
+val pacientesAtendidos: MutableList<String> = mutableListOf()
+
 
 
 fun main(){
