@@ -2,9 +2,7 @@ package BasicEX
 
 private var num1: Int = 0
 private var num2: Int = 0
-
 private var menu = 0
-
 
 fun main() {
     while (true) {
@@ -33,7 +31,6 @@ fun main() {
                 4 -> print("O resultado da subtração: $num1 - $num2 é igual a " + subtra(num1, num2))
                 5 -> menu = 0
                 6 -> break
-
             }
         }
     }
@@ -41,15 +38,12 @@ fun main() {
     fun soma(a: Int, b: Int): Int {
         return a + b
     }
-
     fun multi(a: Int, b: Int): Int {
         return a * b
     }
-
     fun divisao(a: Int, b: Int): Int {
         return a / b
     }
-
     fun subtra(a: Int, b: Int): Int {
         return a - b
     }
